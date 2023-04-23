@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#define LGFX_USE_V1
+
 #include "LGFX_SSD1306.hpp"
 // #include "LGFX_GC9A01.hpp"
 
