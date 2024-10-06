@@ -15,7 +15,7 @@ class LGFX_SSD1306 : public lgfx::LGFX_Device
         auto cfg = _bus_instance.config();
         cfg.spi_host   = 1;
         cfg.spi_mode   = 0;
-        cfg.freq_write = 80000000;
+        cfg.freq_write = 10000000;
         cfg.pin_sclk   = 10;
         cfg.pin_miso   = -1;
         cfg.pin_mosi   = 11;
