@@ -24,6 +24,7 @@ LovyanGFX is display graphics library.
 
 - SSD1306(SPI)
 - GC9A01
+- ST7789
 
 
 ## Usage
@@ -33,8 +34,9 @@ LovyanGFX is display graphics library.
 Select Advanced platform installation and enter url below.  
 [maxgerhardt](https://github.com/maxgerhardt/platform-raspberrypi.git)  
 3. Clone or download this repository.  
-4. Connect pico and upload by platformIO.  
-5. Display show 'あいうえおかきくけこ'.  
+4. Uncommented the desired display in the build_flags of platformio.ini.
+5. Connect pico and upload by platformIO.  
+6. Display show 'あいうえおかきくけこ'.  
 
 ## Author
 
