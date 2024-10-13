@@ -32,7 +32,8 @@ class LGFX_ST7789 : public lgfx::LGFX_Device
         cfg.panel_height     =   240;
         cfg.offset_x         =     0;
         cfg.offset_y         =     0;
-        cfg.offset_rotation  =     0;
+        cfg.invert           =  true;  // パネルの明暗が反転してしまう場合 trueに設定
+
         _panel_instance.config(cfg);
       }
 
