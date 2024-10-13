@@ -10,10 +10,21 @@ LovyanGFX is display graphics library.
 
 ## Requirement
 
-- Raspberry Pi Pico
-- SSD1306(SPI) or GC9A01 display
+- Raspberry Pi Pico etc
+- SSD1306(SPI) etc
 - VSCode
 - PlatformIO
+
+## Supported Devices
+
+- Raspberry Pi Pico
+- Raspberry Pi Pico 2
+
+## Supported Displays
+
+- SSD1306(SPI)
+- GC9A01
+
 
 ## Usage
 
@@ -24,14 +35,6 @@ Select Advanced platform installation and enter url below.
 3. Clone or download this repository.  
 4. Connect pico and upload by platformIO.  
 5. Display show 'あいうえおかきくけこ'.  
-
-## Contribution
-
-1. Fork this repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create new Pull Request
 
 ## Author
 
